@@ -1,0 +1,199 @@
+
+[
+    {
+      "name": {
+        "common": "Peru",
+        "official": "Republic of Peru",
+        "nativeName": {
+          "aym": {
+            "official": "Piruw Suyu",
+            "common": "Piruw"
+          },
+          "que": {
+            "official": "Piruw Ripuwlika",
+            "common": "Piruw"
+          },
+          "spa": {
+            "official": "República del Perú",
+            "common": "Perú"
+          }
+        }
+      },
+      "tld": [
+        ".pe"
+      ],
+      "cca2": "PE",
+      "ccn3": "604",
+      "cca3": "PER",
+      "cioc": "PER",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": {
+        "PEN": {
+          "name": "Peruvian sol",
+          "symbol": "S/ "
+        }
+      },
+      "idd": {
+        "root": "+5",
+        "suffixes": [
+          "1"
+        ]
+      },
+      "capital": [
+        "Lima"
+      ],
+      "altSpellings": [
+        "PE",
+        "Republic of Peru",
+        "República del Perú"
+      ],
+      "region": "Americas",
+      "subregion": "South America",
+      "languages": {
+        "aym": "Aymara",
+        "que": "Quechua",
+        "spa": "Spanish"
+      },
+      
+      "latlng": [
+        -10,
+        -76
+      ],
+      "landlocked": false,
+      "borders": [
+        "BOL",
+        "BRA",
+        "CHL",
+        "COL",
+        "ECU"
+      ],
+      "area": 1285216,
+      "demonyms": {
+        "eng": {
+          "f": "Peruvian",
+          "m": "Peruvian"
+        },
+        "fra": {
+          "f": "Péruvienne",
+          "m": "Péruvien"
+        }
+      },
+      "flag": "🇵🇪",
+      "maps": {
+        "googleMaps": "https://goo.gl/maps/uDWEUaXNcZTng1fP6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/288247"
+      },
+      "population": 32971846,
+      "gini": {
+        "2019": 41.5
+      },
+      "fifa": "PER",
+      "car": {
+        "signs": [
+          "PE"
+        ],
+        "side": "right"
+      },
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "continents": [
+        "South America"
+      ],
+      "flags": {
+        "png": "https://flagcdn.com/w320/pe.png",
+        "svg": "https://flagcdn.com/pe.svg"
+      },
+      "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/pe.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/pe.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": {
+        "latlng": [
+          -12.05,
+          -77.05
+        ]
+      },
+      "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+      }
+    },
+    {
+    "name": {
+      "common": "Heard Island and McDonald Islands",
+      "official": "Heard Island and McDonald Islands",
+      "nativeName": {
+        "eng": {
+          "official": "Heard Island and McDonald Islands",
+          "common": "Heard Island and McDonald Islands"
+        }
+      }
+    },
+    "tld": [
+      ".hm",
+      ".aq"
+    ],
+    "cca2": "HM",
+    "ccn3": "334",
+    "cca3": "HMD",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "idd": {
+      
+    },
+    "altSpellings": [
+      "HM",
+      "Heard Island and McDonald Islands"
+    ],
+    "region": "Antarctic",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [
+      -53.1,
+      72.51666666
+    ],
+    "landlocked": false,
+    "area": 412.0,
+    "demonyms": {
+      "eng": {
+        "f": "Heard and McDonald Islander",
+        "m": "Heard and McDonald Islander"
+      }
+    },
+    "flag": "🇭🇲",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/k5FBAiVaVyozuYeA7",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/2177227"
+    },
+    "population": 0,
+    "car": {
+      "signs": [
+        ""
+      ],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC+05:00"
+    ],
+    "continents": [
+      "Antarctica"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/hm.png",
+      "svg": "https://flagcdn.com/hm.svg"
+    },
+    "coatOfArms": {
+      
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      
+    }
+  }
+  ]
