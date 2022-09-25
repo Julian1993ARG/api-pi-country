@@ -9,19 +9,19 @@ require('./db.js');
 
 const server = express();
 
-var whitelist = ['https://front-pi-countries-h6t6.vercel.app']
-var corsOptions = {
-  origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1) {
-      callback(null, true)
-    } else {
-      callback(new Error('Not allowed by CORS'))
-    }
-  }
-};
-
+// var whitelist = ['https://front-pi-countries-h6t6.vercel.app']
+// var corsOptions = {
+//   origin: function (origin, callback) {
+//     if (whitelist.indexOf(origin) !== -1) {
+//       callback(null, true)
+//     } else {
+//       callback(new Error('Not allowed by CORS'))
+//     }
+//   }
+// };
+server.options("*",cors())
 server.name = 'API';
-server.use(cors(corsOptions))
+// server.use(cors(corsOptions))
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
 server.use(cookieParser());
