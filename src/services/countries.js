@@ -79,7 +79,13 @@ class CountriesService {
     if (!search.length) throw Error("Not found");
     else return search;
   }
-
+  async getActivities(){
+    try {
+      return Activity.findAll()
+    } catch (error) {
+      return error
+    }
+  }
   async addActivity(data) {
     const { name, dificulty, duration, season, idCountry } = data;
     try {
@@ -90,7 +96,7 @@ class CountriesService {
         season,
       });
       newActivity.addCountry(idCountry);
-      return await this.findOne(idCountry);
+      return newActivity;
     } catch (error) {
       return error;
     }

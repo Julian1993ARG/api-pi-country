@@ -46,6 +46,15 @@ router.get("/countries/id/:idCountry", async (req, res) => {
   }
 });
 
+router.get("/activities", async (req, res) => {
+  try {
+    const allActivities = await service.getActivities();
+    res.json(allActivities)
+  } catch (error) {
+    res.status(404).json({err:error})
+  }
+});
+
 router.post("/activities", async (req, res) => {
   try {
     const addData = await service.addActivity(req.body);
