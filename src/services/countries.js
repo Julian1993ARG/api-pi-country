@@ -95,7 +95,7 @@ class CountriesService {
         duration,
         season,
       });
-      newActivity.addCountry(idCountry);
+      newActivity.addCountries(idCountry);
       return newActivity;
     } catch (error) {
       return error;
