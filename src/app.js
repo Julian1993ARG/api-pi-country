@@ -19,7 +19,7 @@ const server = express();
 //     }
 //   }
 // };
-server.options("*",cors())
+server.use(cors())
 server.name = 'API';
 // server.use(cors(corsOptions))
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
